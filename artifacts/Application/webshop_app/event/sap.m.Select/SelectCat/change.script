@@ -1,0 +1,23 @@
+if (SelectCat.getSelectedKey() === "CAT") {
+    // Single Field Sort
+    const oSorter = new sap.ui.model.Sorter("category", false, false);
+    const binding = ListCatelogyGrid.getBinding("items");
+    binding.sort(oSorter);
+} else if (SelectCat.getSelectedKey() === "RATING") {
+    const oSorter = new sap.ui.model.Sorter("rating", true, false);
+    const binding = ListCatelogyGrid.getBinding("items");
+    binding.sort(oSorter);
+}
+
+if (ListDisplay.getVisible()) {
+    if (SelectCat.getSelectedKey() === "CAT") {
+    // Single Field Sort
+    const oSorter = new sap.ui.model.Sorter("category", false, false);
+    const binding = ListDisplay.getBinding("items");
+    binding.sort(oSorter);
+} else if (SelectCat.getSelectedKey() === "RATING") {
+    const oSorter = new sap.ui.model.Sorter("rating", true, false);
+    const binding = ListDisplay.getBinding("items");
+    binding.sort(oSorter);
+}
+}

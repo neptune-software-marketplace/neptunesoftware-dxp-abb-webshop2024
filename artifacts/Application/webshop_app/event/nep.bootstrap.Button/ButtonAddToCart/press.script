@@ -1,0 +1,35 @@
+var addItem = modelModelObjectSelectedItem.getData();
+
+// Check if the item already exists in the cart
+    const existingItem = cartItems.find(cartItem => cartItem.id === addItem.id);
+
+    if (existingItem) {
+        // If the item exists, increment the quantity
+         existingItem.quantity += 1;
+        existingItem.totalPrice = addItem.price * existingItem.quantity;
+        // console.log("existingItem")
+        // console.log(existingItem)
+    } else {
+        // If the item doesn't exist, add it to the cart with quantity 1
+        cartItems.push({ ...addItem, quantity: 1, totalPrice: addItem.price});
+    }
+
+
+modelModelArrayCart.setData(cartItems);
+ButtonCart.setText("(" +cartItems.length +")")
+
+console.log(modelModelArrayCart.getData())
+
+sap.m.MessageToast.show("Item added to cart!", {
+    duration: 3000,                  // default
+    width: "15em",                   // default
+    my: "center center",             // default
+    at: "center center",             // default
+    of: document,                    // default
+    offset: "0 0",                   // default
+    collision: "fit fit",            // default
+    onClose: null,                   // default
+    autoClose: true,                 // default
+    animationTimingFunction: "ease", // default
+    animationDuration: 2000          // default
+});

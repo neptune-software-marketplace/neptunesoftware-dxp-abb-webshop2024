@@ -1,0 +1,10 @@
+const context = oEvent.oSource.getBindingContext();
+const data = context.getObject();
+
+//console.log("I got there")
+
+cartItems.pop(data); //remove item from cart
+calculateTotal(); //Recalculate total
+
+
+ButtonCart.setText("(" +cartItems.length +")")

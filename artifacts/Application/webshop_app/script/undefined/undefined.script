@@ -1,0 +1,53 @@
+.sapFGridListDefault {
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+@media screen and (max-width: 600px) {
+  col {
+    flex-shrink: 0 !important;
+  }
+  .nbsCol {
+    width: 100%;
+  }
+  .col-1 {
+    width: 30% !important;
+  }
+}
+.product-card-image-box {
+  position: relative;
+  align-items: center;
+}
+
+.sapMSFF {
+  background-color: white;
+  background: linear-gradient(0deg, #fefeff, #ffffff) border-box;
+}
+
+.toolbar {
+  background-color: transparent;
+}
+
+.sapMTB.sapMTBStandard {
+  border-bottom: none !important;
+}
+
+.alert-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+}
+
+.sapFGLI {
+  border-radius: 0.35rem;
+  margin: 0.25rem;
+}
+
+.span.sapMBtnInner.sapMBtnEmphasized {
+  font-size: 18px;
+}
+
+.sapMPage > section.sapMPageEnableScrolling {
+  padding-bottom: 5rem;
+}

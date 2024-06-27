@@ -1,0 +1,18 @@
+//Sort by Beauty Category
+const binding = ListCatelogyGrid.getBinding("items");
+const filter = new sap.ui.model.Filter("category", "EQ", "Beauty");
+binding.filter([filter]);
+
+if (ListDisplay.getVisible()) {
+    const binding = ListDisplay.getBinding("items");
+    const filter = new sap.ui.model.Filter("category", "EQ", "Beauty");
+    binding.filter([filter]);
+}
+
+//highlighting the selected filter button 
+ButtonCatBeauty.setType("Emphasized")
+ButtonCatFragrances.setType("Default")
+ButtonCatFurniture.setType("Default")
+ButtonCatGroceries.setType("Default")
+
+ButtonClear.setVisible(true);

@@ -1,0 +1,2 @@
+oButtonBack.setVisible(false);
+NavContainer.backToPage(productPage);

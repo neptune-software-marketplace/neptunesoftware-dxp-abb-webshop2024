@@ -1,0 +1,57 @@
+{
+	"id": "e7143bb3-7c34-ef11-86c1-000d3adf0f0d",
+	"createdAt": "2024-06-27T11:59:26.930Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-web-shop-new"
+	},
+	"name": "neptunesoftware-dxp-abb-web-shop-new",
+	"description": null,
+	"ver": "24.06.27.1204",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "936ab1b9-351c-ef11-96f5-000d3add6b9f",
+			"application": "webshop_app",
+			"title": "Webshop",
+			"description": "",
+			"package": {
+				"id": "E7143BB3-7C34-EF11-86C1-000D3ADF0F0D"
+			}
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [
+		{
+			"id": "e70c5f57-9b1d-ef11-96f5-000d3add6b9f",
+			"name": "Webshop - Single App",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

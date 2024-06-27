@@ -1,0 +1,4 @@
+calculateTotal();
+
+
+DialogCheckOut.open();
