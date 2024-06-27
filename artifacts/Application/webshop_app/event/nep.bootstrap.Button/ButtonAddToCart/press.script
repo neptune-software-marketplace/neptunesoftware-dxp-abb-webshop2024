@@ -7,8 +7,7 @@ var addItem = modelModelObjectSelectedItem.getData();
         // If the item exists, increment the quantity
          existingItem.quantity += 1;
         existingItem.totalPrice = addItem.price * existingItem.quantity;
-        // console.log("existingItem")
-        // console.log(existingItem)
+        
     } else {
         // If the item doesn't exist, add it to the cart with quantity 1
         cartItems.push({ ...addItem, quantity: 1, totalPrice: addItem.price});
@@ -18,7 +17,6 @@ var addItem = modelModelObjectSelectedItem.getData();
 modelModelArrayCart.setData(cartItems);
 ButtonCart.setText("(" +cartItems.length +")")
 
-console.log(modelModelArrayCart.getData())
 
 sap.m.MessageToast.show("Item added to cart!", {
     duration: 3000,                  // default

@@ -27,7 +27,6 @@ function sendByEmail() {
 
 function calculateTotal(){
     const totalCost = cartItems.reduce((acc, item) => acc + item.totalPrice, 0);
-//console.log(totalCost);
 
 TextTotal.setText(`€${totalCost.toFixed(2)}`);
 modelListDisplayCart.setData(cartItems);
