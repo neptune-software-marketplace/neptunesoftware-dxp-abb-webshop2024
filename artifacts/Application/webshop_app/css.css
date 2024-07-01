@@ -50,7 +50,9 @@
     font-size: 18px;
 }
 
-.sapMPage>section.sapMPageEnableScrolling {
+
+
+ .innerPage>section {
   
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
 }

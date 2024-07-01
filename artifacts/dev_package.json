@@ -3,11 +3,11 @@
 	"createdAt": "2024-06-27T11:59:26.930Z",
 	"createdBy": "emmanuella.ndukwe@neptune-software.com",
 	"git": {
-		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-web-shop-new"
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-webshop2024"
 	},
-	"name": "neptunesoftware-dxp-abb-web-shop-new",
+	"name": "neptunesoftware-dxp-abb-webshop2024",
 	"description": null,
-	"ver": "24.06.27.1204",
+	"ver": "24.07.01.1017",
 	"enableCICD": true,
 	"apps": [
 		{

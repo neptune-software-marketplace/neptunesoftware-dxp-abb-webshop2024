@@ -53,7 +53,7 @@
 							"data": [
 								{
 									"fieldNo": "fe789dfa-fc6d-4df2-b639-350532dcd557",
-									"fieldName": "oOverflowToolbar2",
+									"fieldName": "oOverflowToolbarMain",
 									"fieldParent": "ab92a5a2-492a-4351-9531-d47e8cb22634",
 									"fieldType": "sap.m.OverflowToolbar",
 									"script": "",
@@ -120,7 +120,7 @@
 										},
 										{
 											"fieldNo": "5355a508-dd30-460d-809c-d038df859a02",
-											"fieldName": "oToolbarSpacer1",
+											"fieldName": "oToolbarSpacerMain",
 											"fieldParent": "fe789dfa-fc6d-4df2-b639-350532dcd557",
 											"fieldType": "sap.m.ToolbarSpacer",
 											"script": "",
@@ -210,6 +210,13 @@
 													"translation": []
 												},
 												{
+													"attribute": "styleClass",
+													"grouping": "Properties",
+													"value": "innerPage",
+													"script": "",
+													"translation": []
+												},
+												{
 													"attribute": "showHeader",
 													"grouping": "Properties",
 													"value": "false",
@@ -220,7 +227,7 @@
 											"data": [
 												{
 													"fieldNo": "8e41643f-9c69-40e2-cb06-143fb924ef5a",
-													"fieldName": "Text14",
+													"fieldName": "TextMainTitle",
 													"fieldParent": "b1c488e0-232d-4f30-9ab5-fd03793f86f9",
 													"fieldType": "nep.bootstrap.Text",
 													"script": "",
@@ -294,7 +301,7 @@
 													"data": [
 														{
 															"fieldNo": "982280b8-bc43-4363-8a02-126cedc96cbe",
-															"fieldName": "oSearchField",
+															"fieldName": "oSearchFieldProduct",
 															"fieldParent": "14e09cbd-156a-4ead-c267-1ecb7e5fc252",
 															"fieldType": "sap.m.SearchField",
 															"script": "",
@@ -327,7 +334,7 @@
 																	"attribute": "liveChange",
 																	"grouping": "Events",
 																	"value": "Anonymous Function",
-																	"script": "file://event/sap.m.SearchField/oSearchField/liveChange.js",
+																	"script": "file://event/sap.m.SearchField/oSearchFieldProduct/liveChange.js",
 																	"language": "javascript",
 																	"translation": []
 																}
@@ -389,7 +396,7 @@
 																},
 																{
 																	"fieldNo": "404855c2-1c89-4454-94e9-e34b22898e6a",
-																	"fieldName": "Item1",
+																	"fieldName": "ItemCat",
 																	"fieldParent": "d88a335f-6dd9-4ac9-a275-be09d969d10c",
 																	"fieldType": "sap.ui.core.Item",
 																	"script": "",
@@ -416,7 +423,7 @@
 																},
 																{
 																	"fieldNo": "b23a7376-c1c8-4379-a613-43343e71f958",
-																	"fieldName": "Item2",
+																	"fieldName": "ItemRating",
 																	"fieldParent": "d88a335f-6dd9-4ac9-a275-be09d969d10c",
 																	"fieldType": "sap.ui.core.Item",
 																	"script": "",
@@ -486,7 +493,7 @@
 														},
 														{
 															"fieldNo": "4a311480-daa2-4b3f-bb62-99eda59f0f82",
-															"fieldName": "oToolbarSpacer2",
+															"fieldName": "oToolbarSpacerProduct",
 															"fieldParent": "14e09cbd-156a-4ead-c267-1ecb7e5fc252",
 															"fieldType": "sap.m.ToolbarSpacer",
 															"script": "",
@@ -593,18 +600,6 @@
 																	"data": []
 																}
 															]
-														},
-														{
-															"fieldNo": "39f672b6-baa6-4ac6-e718-d0552664bf5b",
-															"fieldName": "oText",
-															"fieldParent": "14e09cbd-156a-4ead-c267-1ecb7e5fc252",
-															"fieldType": "nep.bootstrap.Text",
-															"script": "",
-															"customComponent": false,
-															"request": [],
-															"response": [],
-															"attributes": [],
-															"data": []
 														}
 													]
 												},
@@ -881,7 +876,7 @@
 															"data": [
 																{
 																	"fieldNo": "09e1b289-0e50-4dd1-def3-c044f8781f51",
-																	"fieldName": "HBox12",
+																	"fieldName": "HBoxListDisplay1",
 																	"fieldParent": "6a1a30fa-bde9-419c-ea20-e44dd824faab",
 																	"fieldType": "sap.m.HBox",
 																	"script": "",
@@ -907,7 +902,7 @@
 																	"data": [
 																		{
 																			"fieldNo": "41b588f4-05a2-40e9-9ca3-7e043360477a",
-																			"fieldName": "HBox15",
+																			"fieldName": "HBoxListDisplay2",
 																			"fieldParent": "09e1b289-0e50-4dd1-def3-c044f8781f51",
 																			"fieldType": "sap.m.HBox",
 																			"script": "",
@@ -918,7 +913,7 @@
 																			"data": [
 																				{
 																					"fieldNo": "aeda1435-f467-4bf3-c910-005cc1861e25",
-																					"fieldName": "VBox1",
+																					"fieldName": "VBoxListDisplayImage",
 																					"fieldParent": "41b588f4-05a2-40e9-9ca3-7e043360477a",
 																					"fieldType": "sap.m.VBox",
 																					"script": "",
@@ -937,7 +932,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "aa66dd9e-d960-47df-872f-3e2d6e2b6db7",
-																							"fieldName": "Image7",
+																							"fieldName": "ImageListDisplay",
 																							"fieldParent": "aeda1435-f467-4bf3-c910-005cc1861e25",
 																							"fieldType": "sap.m.Image",
 																							"script": "",
@@ -974,7 +969,7 @@
 																				},
 																				{
 																					"fieldNo": "5e389c08-effa-47bc-920e-f5914e69216e",
-																					"fieldName": "VBoxDetails1",
+																					"fieldName": "VBoxListDisplayDetails",
 																					"fieldParent": "41b588f4-05a2-40e9-9ca3-7e043360477a",
 																					"fieldType": "sap.m.VBox",
 																					"script": "",
@@ -993,7 +988,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "12e3b515-448c-4673-9a50-cfaf71f1e583",
-																							"fieldName": "TextMain1",
+																							"fieldName": "TextMainListDisplay",
 																							"fieldParent": "5e389c08-effa-47bc-920e-f5914e69216e",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -1028,7 +1023,7 @@
 																						},
 																						{
 																							"fieldNo": "5f5b5942-7e0f-46c2-9161-988467c8a897",
-																							"fieldName": "TextSub1",
+																							"fieldName": "TextSubListDisplay",
 																							"fieldParent": "5e389c08-effa-47bc-920e-f5914e69216e",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -1060,7 +1055,7 @@
 																		},
 																		{
 																			"fieldNo": "cd0e0c85-65c7-422f-e2b1-e517b35661ee",
-																			"fieldName": "HBox13",
+																			"fieldName": "HBoxListDisplay3",
 																			"fieldParent": "09e1b289-0e50-4dd1-def3-c044f8781f51",
 																			"fieldType": "sap.m.HBox",
 																			"script": "",
@@ -1093,7 +1088,7 @@
 																			"data": [
 																				{
 																					"fieldNo": "5c02c849-ead7-40b2-c3a2-44e0bc2f3e3b",
-																					"fieldName": "Text15",
+																					"fieldName": "TextCategory",
 																					"fieldParent": "cd0e0c85-65c7-422f-e2b1-e517b35661ee",
 																					"fieldType": "nep.bootstrap.Text",
 																					"script": "",
@@ -1142,7 +1137,7 @@
 																				},
 																				{
 																					"fieldNo": "a15a8300-26ae-4a8f-8c17-65552de636e5",
-																					"fieldName": "HBox14",
+																					"fieldName": "HBoxListDisplay4",
 																					"fieldParent": "cd0e0c85-65c7-422f-e2b1-e517b35661ee",
 																					"fieldType": "sap.m.HBox",
 																					"script": "",
@@ -1182,7 +1177,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "5c3c9795-8b67-4eab-bcc3-26883edacc08",
-																							"fieldName": "Icon9",
+																							"fieldName": "IconListRating",
 																							"fieldParent": "a15a8300-26ae-4a8f-8c17-65552de636e5",
 																							"fieldType": "sap.ui.core.Icon",
 																							"script": "",
@@ -1216,7 +1211,7 @@
 																						},
 																						{
 																							"fieldNo": "d6860cd4-e111-4045-9008-061985c142b1",
-																							"fieldName": "Text16",
+																							"fieldName": "TextListRating",
 																							"fieldParent": "a15a8300-26ae-4a8f-8c17-65552de636e5",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -1402,7 +1397,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "05ee1e89-6a62-4466-b0f0-2f3b9781a0c1",
-																							"fieldName": "Image1",
+																							"fieldName": "ImageGrid",
 																							"fieldParent": "62a7597b-4ad6-4621-8a0f-b9bbcd4d06dd",
 																							"fieldType": "sap.m.Image",
 																							"script": "",
@@ -1460,7 +1455,7 @@
 																			"data": [
 																				{
 																					"fieldNo": "30a8b9a8-dac6-4cda-f0a5-d5bfbe3b2ac6",
-																					"fieldName": "VBoxDetails",
+																					"fieldName": "VBoxProductDescription",
 																					"fieldParent": "c405e1b8-7545-401e-c9c3-d6961528d938",
 																					"fieldType": "sap.m.VBox",
 																					"script": "",
@@ -1479,7 +1474,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "0d8ac739-bf30-4029-af47-31bebc85f738",
-																							"fieldName": "HBox9",
+																							"fieldName": "HBoxProductDescription1",
 																							"fieldParent": "30a8b9a8-dac6-4cda-f0a5-d5bfbe3b2ac6",
 																							"fieldType": "sap.m.HBox",
 																							"script": "",
@@ -1526,7 +1521,7 @@
 																							"data": [
 																								{
 																									"fieldNo": "fb880993-037d-4479-b3bf-b38f5ea87e9e",
-																									"fieldName": "Text9",
+																									"fieldName": "TextGridCat",
 																									"fieldParent": "0d8ac739-bf30-4029-af47-31bebc85f738",
 																									"fieldType": "nep.bootstrap.Text",
 																									"script": "",
@@ -1575,7 +1570,7 @@
 																								},
 																								{
 																									"fieldNo": "229320c2-9cbb-4898-b070-b4e3ac580eb3",
-																									"fieldName": "HBox11",
+																									"fieldName": "HBoxProductDescription2",
 																									"fieldParent": "0d8ac739-bf30-4029-af47-31bebc85f738",
 																									"fieldType": "sap.m.HBox",
 																									"script": "",
@@ -1608,7 +1603,7 @@
 																									"data": [
 																										{
 																											"fieldNo": "fa7c4bbf-bbd7-4a35-8595-006a0ec0faff",
-																											"fieldName": "Icon8",
+																											"fieldName": "IconRating",
 																											"fieldParent": "229320c2-9cbb-4898-b070-b4e3ac580eb3",
 																											"fieldType": "sap.ui.core.Icon",
 																											"script": "",
@@ -1642,7 +1637,7 @@
 																										},
 																										{
 																											"fieldNo": "020f4c26-afcc-4f22-97ab-fe97e0485413",
-																											"fieldName": "Text11",
+																											"fieldName": "TextRating",
 																											"fieldParent": "229320c2-9cbb-4898-b070-b4e3ac580eb3",
 																											"fieldType": "nep.bootstrap.Text",
 																											"script": "",
@@ -1819,7 +1814,15 @@
 													"customComponent": false,
 													"request": [],
 													"response": [],
-													"attributes": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiLargeMarginBottom",
+															"script": "",
+															"translation": []
+														}
+													],
 													"data": [
 														{
 															"fieldNo": "77dc8fa9-c083-4d84-dfc0-e4d98261faf5",
@@ -1861,7 +1864,7 @@
 																	"data": [
 																		{
 																			"fieldNo": "7cf15e07-6008-43e7-9c73-e3e7977d6286",
-																			"fieldName": "Column3",
+																			"fieldName": "ColumnImageMain",
 																			"fieldParent": "4f75093f-159a-4b7f-97bf-8659c4889859",
 																			"fieldType": "nep.bootstrap.Col",
 																			"script": "",
@@ -1901,7 +1904,7 @@
 																			"data": [
 																				{
 																					"fieldNo": "4f3bec1f-481b-44e6-d0d2-2580e309dbfb",
-																					"fieldName": "Image6",
+																					"fieldName": "ImageMain",
 																					"fieldParent": "7cf15e07-6008-43e7-9c73-e3e7977d6286",
 																					"fieldType": "nep.bootstrap.Image",
 																					"script": "",
@@ -1971,7 +1974,7 @@
 																			"data": [
 																				{
 																					"fieldNo": "fa12e14a-2068-4179-b0b6-7d16751e0273",
-																					"fieldName": "Image",
+																					"fieldName": "ImageThumbnail",
 																					"fieldParent": "293527a1-a460-4163-c0f1-145735738f56",
 																					"fieldType": "nep.bootstrap.Image",
 																					"script": "",
@@ -2073,7 +2076,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "8ee0e01a-2e2c-4fc4-cccb-23f0994701ba",
-																							"fieldName": "Text23",
+																							"fieldName": "TextCat",
 																							"fieldParent": "bab226d4-a8ec-41a9-eba9-89d1442aa37a",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -2122,7 +2125,7 @@
 																						},
 																						{
 																							"fieldNo": "252b362d-de09-477f-cf9d-c1fcde080a04",
-																							"fieldName": "Text8",
+																							"fieldName": "TextTitle",
 																							"fieldParent": "bab226d4-a8ec-41a9-eba9-89d1442aa37a",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -2157,7 +2160,7 @@
 																						},
 																						{
 																							"fieldNo": "b825de1c-5b0b-43b2-a863-eed63ca74809",
-																							"fieldName": "Text25",
+																							"fieldName": "TextDescription",
 																							"fieldParent": "bab226d4-a8ec-41a9-eba9-89d1442aa37a",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -2178,7 +2181,7 @@
 																						},
 																						{
 																							"fieldNo": "be68c60d-fd7a-4e54-d260-d4f1e610fc05",
-																							"fieldName": "HBox4",
+																							"fieldName": "HBoxDescr",
 																							"fieldParent": "bab226d4-a8ec-41a9-eba9-89d1442aa37a",
 																							"fieldType": "sap.m.HBox",
 																							"script": "",
@@ -2282,7 +2285,7 @@
 																						},
 																						{
 																							"fieldNo": "7a40de0c-581f-44e2-9232-4c37f4c1a05e",
-																							"fieldName": "HBox5",
+																							"fieldName": "HBoxShare",
 																							"fieldParent": "bab226d4-a8ec-41a9-eba9-89d1442aa37a",
 																							"fieldType": "sap.m.HBox",
 																							"script": "",
@@ -2448,7 +2451,7 @@
 															"data": [
 																{
 																	"fieldNo": "f6fb9258-d26b-48a1-fc41-fb6a42ef7c25",
-																	"fieldName": "TextTitle",
+																	"fieldName": "TextTitleSpec",
 																	"fieldParent": "ca5bcfdc-81cf-493e-b18a-d39733f0ed6e",
 																	"fieldType": "nep.bootstrap.Text",
 																	"script": "",
@@ -2541,7 +2544,7 @@
 																			"data": [
 																				{
 																					"fieldNo": "1a02e29d-af2a-4d36-88a7-f455e261fc69",
-																					"fieldName": "VBox10",
+																					"fieldName": "VBoxBrand",
 																					"fieldParent": "73332e64-cae8-4d27-c424-0405a5bc75da",
 																					"fieldType": "sap.m.VBox",
 																					"script": "",
@@ -2560,7 +2563,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "a17bbc2c-bcce-42d1-8671-b7117686b90d",
-																							"fieldName": "Text26",
+																							"fieldName": "TextBrandLabel",
 																							"fieldParent": "1a02e29d-af2a-4d36-88a7-f455e261fc69",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -2594,7 +2597,7 @@
 																						},
 																						{
 																							"fieldNo": "32c340e8-1037-45ce-a980-138e1ffbb54d",
-																							"fieldName": "Text27",
+																							"fieldName": "TextBrand",
 																							"fieldParent": "1a02e29d-af2a-4d36-88a7-f455e261fc69",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -2659,7 +2662,7 @@
 																			"data": [
 																				{
 																					"fieldNo": "14b09a02-1ddc-46c1-ec40-20d276d697df",
-																					"fieldName": "VBox11",
+																					"fieldName": "VBoxSku",
 																					"fieldParent": "7480e55f-23bd-46a5-f65a-fc73344c15a0",
 																					"fieldType": "sap.m.VBox",
 																					"script": "",
@@ -2670,7 +2673,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "51af2ab3-512f-43aa-8c47-d0238403b4c0",
-																							"fieldName": "Text28",
+																							"fieldName": "TextSKULabel",
 																							"fieldParent": "14b09a02-1ddc-46c1-ec40-20d276d697df",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -2704,7 +2707,7 @@
 																						},
 																						{
 																							"fieldNo": "db9c1d04-5890-48c1-8dd7-e4ef4f6221f8",
-																							"fieldName": "Text29",
+																							"fieldName": "TextSKU",
 																							"fieldParent": "14b09a02-1ddc-46c1-ec40-20d276d697df",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -2769,7 +2772,7 @@
 																			"data": [
 																				{
 																					"fieldNo": "25f08a0a-8949-45f8-e972-fc93b3327657",
-																					"fieldName": "VBox12",
+																					"fieldName": "VBoxWeight",
 																					"fieldParent": "d5baf0cd-edc2-48ec-8a84-de9056b08093",
 																					"fieldType": "sap.m.VBox",
 																					"script": "",
@@ -2780,7 +2783,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "56a8b971-5208-4188-844f-0fd3932afd94",
-																							"fieldName": "Text30",
+																							"fieldName": "TextWeightLabel",
 																							"fieldParent": "25f08a0a-8949-45f8-e972-fc93b3327657",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -2814,7 +2817,7 @@
 																						},
 																						{
 																							"fieldNo": "9d8b140c-2939-4a60-b5fc-cb72115abd57",
-																							"fieldName": "Text31",
+																							"fieldName": "TextWeight",
 																							"fieldParent": "25f08a0a-8949-45f8-e972-fc93b3327657",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -2879,7 +2882,7 @@
 																			"data": [
 																				{
 																					"fieldNo": "8754ff58-06cb-44e5-ee38-0a93433bce34",
-																					"fieldName": "VBox13",
+																					"fieldName": "VBoxStock",
 																					"fieldParent": "23aaace0-caa5-4319-bf91-833300de77aa",
 																					"fieldType": "sap.m.VBox",
 																					"script": "",
@@ -2890,7 +2893,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "2a035d65-6eb1-482b-9fd3-b9387b71f4f0",
-																							"fieldName": "Text32",
+																							"fieldName": "TextStockLabel",
 																							"fieldParent": "8754ff58-06cb-44e5-ee38-0a93433bce34",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -2924,7 +2927,7 @@
 																						},
 																						{
 																							"fieldNo": "cbc02628-aed9-41a4-ac95-eb4527c255c7",
-																							"fieldName": "Text33",
+																							"fieldName": "TextStock",
 																							"fieldParent": "8754ff58-06cb-44e5-ee38-0a93433bce34",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -2989,7 +2992,7 @@
 																			"data": [
 																				{
 																					"fieldNo": "cbc842db-baed-46ae-cba7-c4198493f0b0",
-																					"fieldName": "VBox14",
+																					"fieldName": "VBoxPrice",
 																					"fieldParent": "4ec7e3ab-0507-4a43-e11e-e92972542804",
 																					"fieldType": "sap.m.VBox",
 																					"script": "",
@@ -3000,7 +3003,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "8384ea5c-8995-4fbf-f3b9-9d20dce1af6d",
-																							"fieldName": "Text34",
+																							"fieldName": "TextPriceLabel",
 																							"fieldParent": "cbc842db-baed-46ae-cba7-c4198493f0b0",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -3034,7 +3037,7 @@
 																						},
 																						{
 																							"fieldNo": "828f68f9-4e2c-4c9f-d28b-006848bf78da",
-																							"fieldName": "Text35",
+																							"fieldName": "TextPrice",
 																							"fieldParent": "cbc842db-baed-46ae-cba7-c4198493f0b0",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -3099,7 +3102,7 @@
 																			"data": [
 																				{
 																					"fieldNo": "100b895b-5bf1-4c8f-fac2-261b4590ff6f",
-																					"fieldName": "VBox15",
+																					"fieldName": "VBoxDim",
 																					"fieldParent": "42769371-50c3-464e-f600-68f430d6df4b",
 																					"fieldType": "sap.m.VBox",
 																					"script": "",
@@ -3110,7 +3113,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "afee51ea-2fbe-4e9e-b36b-fae87b003394",
-																							"fieldName": "Text36",
+																							"fieldName": "TextDimLabel",
 																							"fieldParent": "100b895b-5bf1-4c8f-fac2-261b4590ff6f",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -3144,7 +3147,7 @@
 																						},
 																						{
 																							"fieldNo": "a1cb7a81-9408-4cf2-bf57-6aee897b2036",
-																							"fieldName": "Text37",
+																							"fieldName": "TextDim",
 																							"fieldParent": "100b895b-5bf1-4c8f-fac2-261b4590ff6f",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -3227,7 +3230,7 @@
 															"data": [
 																{
 																	"fieldNo": "91decd45-6c6f-4209-df67-66b5d8e6adc8",
-																	"fieldName": "TextTitle1",
+																	"fieldName": "TextTitleFeatures",
 																	"fieldParent": "12b2a4af-30ba-4b2a-a68d-b6cb6ab2e6e6",
 																	"fieldType": "nep.bootstrap.Text",
 																	"script": "",
@@ -3337,7 +3340,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "d0525006-066f-48b6-d762-3bbadba784ea",
-																							"fieldName": "Icon3",
+																							"fieldName": "IconFeatures1",
 																							"fieldParent": "c3bc82ad-e88a-4268-df3f-ff10d581f89c",
 																							"fieldType": "sap.ui.core.Icon",
 																							"script": "",
@@ -3371,7 +3374,7 @@
 																						},
 																						{
 																							"fieldNo": "a5ceb373-47ca-4264-eec8-31eefbe9c502",
-																							"fieldName": "Text3",
+																							"fieldName": "TextFeatures1",
 																							"fieldParent": "c3bc82ad-e88a-4268-df3f-ff10d581f89c",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -3432,7 +3435,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "5b696d57-c403-48ba-dc04-b144d6df56db",
-																							"fieldName": "Icon1",
+																							"fieldName": "IconFeatures2",
 																							"fieldParent": "a7a08ff8-a7d2-4c5c-945c-439708a15d9d",
 																							"fieldType": "sap.ui.core.Icon",
 																							"script": "",
@@ -3466,7 +3469,7 @@
 																						},
 																						{
 																							"fieldNo": "f601075b-207a-4ee6-8e08-88be0694ec79",
-																							"fieldName": "Text1",
+																							"fieldName": "TextFeatures2",
 																							"fieldParent": "a7a08ff8-a7d2-4c5c-945c-439708a15d9d",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -3527,7 +3530,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "bf85b022-2f76-4443-b304-4207062ea918",
-																							"fieldName": "Icon",
+																							"fieldName": "IconFeatures3",
 																							"fieldParent": "c0092fa1-503c-439a-bdd8-6bad89148f04",
 																							"fieldType": "sap.ui.core.Icon",
 																							"script": "",
@@ -3561,7 +3564,7 @@
 																						},
 																						{
 																							"fieldNo": "05017e9a-3018-4573-cb90-62e689d36f0f",
-																							"fieldName": "Text5",
+																							"fieldName": "TextFeatures3",
 																							"fieldParent": "c0092fa1-503c-439a-bdd8-6bad89148f04",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -3622,7 +3625,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "1127f77a-1de7-41e0-ef0e-fb63be6d1e75",
-																							"fieldName": "Icon2",
+																							"fieldName": "IconFeatures4",
 																							"fieldParent": "96f6b889-1e17-4c51-af3e-c05f8a4f70b7",
 																							"fieldType": "sap.ui.core.Icon",
 																							"script": "",
@@ -3656,7 +3659,7 @@
 																						},
 																						{
 																							"fieldNo": "92d2faec-1900-48ed-802a-cf61e4902384",
-																							"fieldName": "Text",
+																							"fieldName": "TextFeatures4",
 																							"fieldParent": "96f6b889-1e17-4c51-af3e-c05f8a4f70b7",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -3732,7 +3735,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "f612f87b-4d81-4fba-84dd-677d704ead6d",
-																							"fieldName": "Icon4",
+																							"fieldName": "IconFeatures5",
 																							"fieldParent": "45bed4e5-c3f1-4b8c-95b0-fcf860997064",
 																							"fieldType": "sap.ui.core.Icon",
 																							"script": "",
@@ -3766,7 +3769,7 @@
 																						},
 																						{
 																							"fieldNo": "d5df338f-de82-4f7b-f262-583fee5821bd",
-																							"fieldName": "Text2",
+																							"fieldName": "TextFeatures5",
 																							"fieldParent": "45bed4e5-c3f1-4b8c-95b0-fcf860997064",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -3827,7 +3830,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "e67f01b8-786b-42e0-daaa-26f3623a1aa4",
-																							"fieldName": "Icon6",
+																							"fieldName": "IconFeatures6",
 																							"fieldParent": "007bfa70-d84d-4bed-f026-e54c94eb9fbb",
 																							"fieldType": "sap.ui.core.Icon",
 																							"script": "",
@@ -3861,7 +3864,7 @@
 																						},
 																						{
 																							"fieldNo": "0ce83b2b-825b-4ae8-a885-ec21c9636730",
-																							"fieldName": "Text6",
+																							"fieldName": "TextFeatures6",
 																							"fieldParent": "007bfa70-d84d-4bed-f026-e54c94eb9fbb",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -3914,7 +3917,7 @@
 																},
 																{
 																	"fieldNo": "8c079560-b25e-4052-dfeb-946b1cade125",
-																	"fieldName": "RowDescription",
+																	"fieldName": "RowCopyright",
 																	"fieldParent": "12b2a4af-30ba-4b2a-a68d-b6cb6ab2e6e6",
 																	"fieldType": "nep.bootstrap.Row",
 																	"script": "",
@@ -3936,7 +3939,7 @@
 																			"data": [
 																				{
 																					"fieldNo": "f4e97658-e2da-4124-e3c0-83ce7c42deac",
-																					"fieldName": "VBox8",
+																					"fieldName": "VBoxCopyright",
 																					"fieldParent": "cd65a37b-3104-4da7-c241-c3ec68e58793",
 																					"fieldType": "sap.m.VBox",
 																					"script": "",
@@ -3947,7 +3950,7 @@
 																					"data": [
 																						{
 																							"fieldNo": "10e6e447-e540-4bc8-ec9e-59ccfc2991c7",
-																							"fieldName": "Text10",
+																							"fieldName": "TextCopyright",
 																							"fieldParent": "f4e97658-e2da-4124-e3c0-83ce7c42deac",
 																							"fieldType": "nep.bootstrap.Text",
 																							"script": "",
@@ -4093,68 +4096,6 @@
 			"fieldNo": 99999,
 			"data": [
 				{
-					"fieldNo": "7e8e19e5-5024-4c4f-b4d4-c137308cc5fd",
-					"fieldName": "Dialog",
-					"fieldParent": 99999,
-					"fieldType": "sap.m.Dialog",
-					"script": "",
-					"customComponent": false,
-					"request": [],
-					"response": [],
-					"attributes": [
-						{
-							"attribute": "verticalScrolling",
-							"grouping": "Properties",
-							"value": "false",
-							"script": "",
-							"translation": []
-						},
-						{
-							"attribute": "type",
-							"grouping": "Properties",
-							"value": "Message",
-							"script": "",
-							"translation": []
-						},
-						{
-							"attribute": "styleClass",
-							"grouping": "Properties",
-							"value": "alert-dialog",
-							"script": "",
-							"translation": []
-						},
-						{
-							"attribute": "state",
-							"grouping": "Properties",
-							"value": "Information",
-							"script": "",
-							"translation": []
-						},
-						{
-							"attribute": "showHeader",
-							"grouping": "Properties",
-							"value": "false",
-							"script": "",
-							"translation": []
-						},
-						{
-							"attribute": "horizontalScrolling",
-							"grouping": "Properties",
-							"value": "false",
-							"script": "",
-							"translation": []
-						},
-						{
-							"attribute": "contentWidth",
-							"grouping": "Properties",
-							"value": "60%",
-							"script": "",
-							"translation": []
-						}
-					],
-					"data": []
-				},
-				{
 					"fieldNo": "19f67545-8040-4594-dc17-c4be596fdde8",
 					"fieldName": "DialogCheckOut",
 					"fieldParent": 99999,
@@ -4227,7 +4168,7 @@
 									"data": [
 										{
 											"fieldNo": "7de2d486-83af-410b-e7a5-a44cd1e0383e",
-											"fieldName": "Text17",
+											"fieldName": "TextDialogTitle",
 											"fieldParent": "bff8c1e2-c64f-442b-c12e-f947be797aeb",
 											"fieldType": "nep.bootstrap.Text",
 											"script": "",
@@ -4335,7 +4276,7 @@
 							"data": [
 								{
 									"fieldNo": "d21d795b-f565-4d85-95e6-5c35e3a92670",
-									"fieldName": "CustomListItem1",
+									"fieldName": "CustomListItemCart",
 									"fieldParent": "50b095e6-e6e7-4494-c60f-4d591fd498ca",
 									"fieldType": "sap.m.CustomListItem",
 									"script": "",
@@ -4354,7 +4295,7 @@
 											"attribute": "press",
 											"grouping": "Events",
 											"value": "Anonymous Function",
-											"script": "file://event/sap.m.CustomListItem/CustomListItem1/press.js",
+											"script": "file://event/sap.m.CustomListItem/CustomListItemCart/press.js",
 											"language": "javascript",
 											"translation": []
 										}
@@ -4362,7 +4303,7 @@
 									"data": [
 										{
 											"fieldNo": "414d9d22-e95d-40c9-91af-68e02760082d",
-											"fieldName": "HBox16",
+											"fieldName": "HBoxCart1",
 											"fieldParent": "d21d795b-f565-4d85-95e6-5c35e3a92670",
 											"fieldType": "sap.m.HBox",
 											"script": "",
@@ -4388,7 +4329,7 @@
 											"data": [
 												{
 													"fieldNo": "1f8a9d56-3ea1-4c62-9074-a0cbba79e4ff",
-													"fieldName": "HBox17",
+													"fieldName": "HBoxCart2",
 													"fieldParent": "414d9d22-e95d-40c9-91af-68e02760082d",
 													"fieldType": "sap.m.HBox",
 													"script": "",
@@ -4407,7 +4348,7 @@
 													"data": [
 														{
 															"fieldNo": "16ce276e-c858-4562-a629-df0daa1fde7a",
-															"fieldName": "VBox3",
+															"fieldName": "VBoxCart3",
 															"fieldParent": "1f8a9d56-3ea1-4c62-9074-a0cbba79e4ff",
 															"fieldType": "sap.m.VBox",
 															"script": "",
@@ -4426,7 +4367,7 @@
 															"data": [
 																{
 																	"fieldNo": "95ac63f4-025f-4525-e1c7-7c7af51b7a2b",
-																	"fieldName": "Image8",
+																	"fieldName": "ImageCart",
 																	"fieldParent": "16ce276e-c858-4562-a629-df0daa1fde7a",
 																	"fieldType": "sap.m.Image",
 																	"script": "",
@@ -4463,7 +4404,7 @@
 														},
 														{
 															"fieldNo": "5b4f4493-2acc-4067-fe85-c4d4690828fb",
-															"fieldName": "VBoxDetails2",
+															"fieldName": "VBoxDetailsCart",
 															"fieldParent": "1f8a9d56-3ea1-4c62-9074-a0cbba79e4ff",
 															"fieldType": "sap.m.VBox",
 															"script": "",
@@ -4489,7 +4430,7 @@
 															"data": [
 																{
 																	"fieldNo": "d2e694b7-090e-42c4-a833-3e7c75db0c96",
-																	"fieldName": "TextMain2",
+																	"fieldName": "TextMainCart",
 																	"fieldParent": "5b4f4493-2acc-4067-fe85-c4d4690828fb",
 																	"fieldType": "nep.bootstrap.Text",
 																	"script": "",
@@ -4528,7 +4469,7 @@
 												},
 												{
 													"fieldNo": "e0753735-5d40-4020-e6e9-c3e69de59cd3",
-													"fieldName": "HBox18",
+													"fieldName": "HBoxCart3",
 													"fieldParent": "414d9d22-e95d-40c9-91af-68e02760082d",
 													"fieldType": "sap.m.HBox",
 													"script": "",
@@ -4561,7 +4502,7 @@
 													"data": [
 														{
 															"fieldNo": "54a90218-7d76-4bea-de0e-1719b19a7782",
-															"fieldName": "HBox24",
+															"fieldName": "HBoxCart4",
 															"fieldParent": "e0753735-5d40-4020-e6e9-c3e69de59cd3",
 															"fieldType": "sap.m.HBox",
 															"script": "",
@@ -4632,7 +4573,7 @@
 														},
 														{
 															"fieldNo": "5368d666-0658-4ca2-8213-6b7e4250cba6",
-															"fieldName": "HBox23",
+															"fieldName": "HBoxCart5",
 															"fieldParent": "e0753735-5d40-4020-e6e9-c3e69de59cd3",
 															"fieldType": "sap.m.HBox",
 															"script": "",
@@ -4643,7 +4584,7 @@
 															"data": [
 																{
 																	"fieldNo": "d9990bb6-f970-41a1-c8ab-941c4cc74949",
-																	"fieldName": "TextPrice2",
+																	"fieldName": "TextEuro",
 																	"fieldParent": "5368d666-0658-4ca2-8213-6b7e4250cba6",
 																	"fieldType": "nep.bootstrap.Text",
 																	"script": "",
@@ -4678,7 +4619,7 @@
 																},
 																{
 																	"fieldNo": "92b56ccb-3cbd-4ef8-bdaf-43c509f99b87",
-																	"fieldName": "TextPrice3",
+																	"fieldName": "TextTotalPricePerITem",
 																	"fieldParent": "5368d666-0658-4ca2-8213-6b7e4250cba6",
 																	"fieldType": "nep.bootstrap.Text",
 																	"script": "",
@@ -4741,7 +4682,7 @@
 															"data": [
 																{
 																	"fieldNo": "250f92cd-ed1b-4280-8177-7d94fa09b79e",
-																	"fieldName": "Button1",
+																	"fieldName": "ButtonDel",
 																	"fieldParent": "1f77408c-939e-40b6-bb5b-bd1b63cbc2ed",
 																	"fieldType": "sap.m.Button",
 																	"script": "",
@@ -4767,7 +4708,7 @@
 																			"attribute": "press",
 																			"grouping": "Events",
 																			"value": "Anonymous Function",
-																			"script": "file://event/sap.m.Button/Button1/press.script",
+																			"script": "file://event/sap.m.Button/ButtonDel/press.script",
 																			"translation": []
 																		}
 																	],
@@ -4834,7 +4775,7 @@
 											"data": [
 												{
 													"fieldNo": "0e06945b-423c-4d56-af2b-582cd813a33c",
-													"fieldName": "Text20",
+													"fieldName": "TextTotalLabel",
 													"fieldParent": "1cdea983-e4b5-4920-f9de-f97882db3d0e",
 													"fieldType": "nep.bootstrap.Text",
 													"script": "",
@@ -4981,151 +4922,6 @@
 					"data": []
 				},
 				{
-					"fieldNo": "2a1b40bd-c519-4ad8-f0da-37677f033303",
-					"fieldName": "Popover",
-					"fieldParent": 99999,
-					"fieldType": "sap.m.Popover",
-					"script": "",
-					"customComponent": false,
-					"request": [],
-					"response": [],
-					"attributes": [
-						{
-							"attribute": "showHeader",
-							"grouping": "Properties",
-							"value": "false",
-							"script": "",
-							"translation": []
-						}
-					],
-					"data": [
-						{
-							"fieldNo": "736a7278-790c-4469-fd4d-16309293e31c",
-							"fieldName": "VBox2",
-							"fieldParent": "2a1b40bd-c519-4ad8-f0da-37677f033303",
-							"fieldType": "sap.m.VBox",
-							"script": "",
-							"customComponent": false,
-							"request": [],
-							"response": [],
-							"attributes": [
-								{
-									"attribute": "width",
-									"grouping": "Properties",
-									"value": "250px",
-									"script": "",
-									"translation": []
-								}
-							],
-							"data": [
-								{
-									"fieldNo": "9a235b2a-37dc-41a4-acc6-e21e12728d30",
-									"fieldName": "ButtonCopy",
-									"fieldParent": "736a7278-790c-4469-fd4d-16309293e31c",
-									"fieldType": "nep.bootstrap.Button",
-									"script": "",
-									"customComponent": false,
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "press",
-											"grouping": "Events",
-											"value": "copyToClipboard()",
-											"script": "copyToClipboard()",
-											"translation": []
-										},
-										{
-											"attribute": "text",
-											"grouping": "Properties",
-											"value": "Copy URL to Clipboard",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "type",
-											"grouping": "Properties",
-											"value": "Outline",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "width",
-											"grouping": "Properties",
-											"value": "100%",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "contextColor",
-											"grouping": "Properties",
-											"value": "Primary",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": []
-								},
-								{
-									"fieldNo": "34ff7f6d-dfb4-45b7-bbe2-666d72539289",
-									"fieldName": "ButtonShareEmail",
-									"fieldParent": "736a7278-790c-4469-fd4d-16309293e31c",
-									"fieldType": "nep.bootstrap.Button",
-									"script": "",
-									"customComponent": false,
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "press",
-											"grouping": "Events",
-											"value": "sendByEmail()",
-											"script": "sendByEmail()",
-											"translation": []
-										},
-										{
-											"attribute": "text",
-											"grouping": "Properties",
-											"value": "Share via Email",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "type",
-											"grouping": "Properties",
-											"value": "Outline",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "margin",
-											"grouping": "Properties",
-											"value": "MarginTop1",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "width",
-											"grouping": "Properties",
-											"value": "100%",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "contextColor",
-											"grouping": "Properties",
-											"value": "Primary",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": []
-								}
-							]
-						}
-					]
-				},
-				{
 					"fieldNo": "4641b13a-5259-4bd1-a01a-1234b5155ce7",
 					"fieldName": "PopoverReviews",
 					"fieldParent": 99999,
@@ -5232,18 +5028,6 @@
 					]
 				},
 				{
-					"fieldNo": "82e82c95-b8e3-4d04-ab17-439a1f4e1a79",
-					"fieldName": "SelectDialog",
-					"fieldParent": 99999,
-					"fieldType": "sap.m.SelectDialog",
-					"script": "",
-					"customComponent": false,
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": []
-				},
-				{
 					"fieldNo": "fd3a9cdc-eb4d-48cc-821a-5d5e9272a1c0",
 					"fieldName": "Javascript",
 					"fieldParent": 99999,
@@ -5275,7 +5059,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.27.1210",
+	"ver": "24.07.01.1014",
 	"application": "webshop_app",
 	"title": "Webshop",
 	"description": "",
